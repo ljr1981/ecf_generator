@@ -10,7 +10,7 @@
 		<setting name="concurrency" value="scoop"/>
 		<library name="base" location="$ISE_LIBRARY\library\base\base-safe.ecf"/>
 		<library name="process" location="$ISE_LIBRARY\library\process\process-safe.ecf"/>
-		<library name="randomizer" location="$GitHub\randomizer\randomizer.ecf"/>
+		<library name="randomizer" location="..\randomizer\randomizer.ecf"/>
 		<library name="thread" location="$ISE_LIBRARY\library\thread\thread-safe.ecf"/>
 		<cluster name="ecf_generator" location=".\" recursive="true">
 			<file_rule>
